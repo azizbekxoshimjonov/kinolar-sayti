@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+.carusel__wrapper{
+    height: 800px;
+    img{
+        height: 800px;
+        object-fit: cover;
+    }
+}
+
+.movises__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.kino__wrapper{
+    margin-top: 150px;
+}
+li{
+    margin-top: 50px;
+}
+
+      .option {
+        color: black;
+        outline: none;
+      }
+.sel__category{
+    background-color: black;
+    color: white;
+    width: 90px;
+}
+.option__conta{
+    display: flex;
+    align-items: center;
+}
+
+
+   
